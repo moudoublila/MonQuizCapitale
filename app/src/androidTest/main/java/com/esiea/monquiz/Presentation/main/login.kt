@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(com.esiea.monquiz.R.layout.activity_main)
+        setContentView(com.esiea.monquiz.R.layout.activity_login)
     }
 
     fun login(v: View?) {
