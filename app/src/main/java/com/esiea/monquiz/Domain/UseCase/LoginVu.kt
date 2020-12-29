@@ -12,5 +12,9 @@ class LoginVu (val userRepository: UserRepository){
         userRepository.Creatuser(Utilisateur())
 
     }
+
+    fun initializeFB() {
+        TODO("Not yet implemented")
     }
+}
 

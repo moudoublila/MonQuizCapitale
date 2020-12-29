@@ -1,5 +1,5 @@
 package com.esiea.monquiz.Presentation.main
-
+import com.esiea.monquiz.Presentation.main.login
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -18,4 +18,11 @@ class MainActivity : AppCompatActivity() {
 
 
          }
-    }
+
+
+
+
+
+
+    fun login(view: View) {}
+}

@@ -9,7 +9,7 @@ import com.esiea.monquiz.Domain.user.Utilisateur
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
-class MainVuModel ( val LoginVu: LoginVu
+class MainVuModel ( val LoginVu: LoginVu,
 val Getuserusecase:Getuserusecase
 ):
         ViewModel() {
@@ -24,9 +24,7 @@ val Getuserusecase:Getuserusecase
             this.coroutineContext
 
 
-            val email: String
-            LoginVu.invoke(Utilisateur(email:"test"))
-          val Utilisateur unit=  Getuserusecase.invoke(Utilisateur(email:"test"))
+
         }
 
     }
