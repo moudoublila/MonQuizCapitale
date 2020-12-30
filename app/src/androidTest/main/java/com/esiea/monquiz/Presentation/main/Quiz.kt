@@ -18,6 +18,10 @@ class Quiz : AppCompatActivity() {
     var currentQuizIndex: Int=0
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
