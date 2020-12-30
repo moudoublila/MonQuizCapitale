@@ -32,10 +32,10 @@ class Quiz : AppCompatActivity() {
         )
         quizs.add(
             QuizCapitale(
-                question = "Quelle est la capitale de l'Algerie  ?",
-                r1 = "Paris",
-                r2 = "Alger",
-                r3 = "Londre",
+                question = "Quelle est la capitale de l'Autriche ?",
+                r1 = "Alger",
+                r2 = "Vienne",
+                r3 = "Marseille",
                 correctanswerNbr = 2
             )
         )
